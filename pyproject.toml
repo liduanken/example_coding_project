@@ -1,0 +1,24 @@
+
+[project]
+name = "temperature-converter"
+version = "0.1.0"
+description = "A simple Python package to convert temperatures between Celsius and Fahrenheit."
+authors = [
+    { name="Li Duan", email="li.duan@kyndryl.com" }
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://example.com/temperature-converter"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "."
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
