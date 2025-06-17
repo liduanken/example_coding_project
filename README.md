@@ -16,6 +16,12 @@ Run the script directly:
 python simple_coding_project.py
 ```
 
+You can also import the conversion functions from the package:
+
+```python
+from temperature_converter import celsius_to_fahrenheit, fahrenheit_to_celsius
+```
+
 Example output:
 
 ```
