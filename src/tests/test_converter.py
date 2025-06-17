@@ -1,6 +1,10 @@
 
 import unittest
-from simple_coding_project import celsius_to_fahrenheit, fahrenheit_to_celsius
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from temperature_converter import celsius_to_fahrenheit, fahrenheit_to_celsius
 
 class TestTemperatureConversion(unittest.TestCase):
 
