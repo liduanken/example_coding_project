@@ -15,7 +15,7 @@ This is a simple Python script that converts temperatures between Celsius, Fahre
 Run the script directly:
 
 ```bash
-python simple_coding_project.py
+python src/temperature_converter/convert.py
 ```
 
 You can also import the conversion functions from the package:
