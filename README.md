@@ -62,5 +62,6 @@ Example output:
 
 ## Requirements
 
-- Python 3.x  
+- Python 3.x
   No external libraries are required.
+- pytest for running tests
